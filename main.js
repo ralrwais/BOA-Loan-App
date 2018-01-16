@@ -7,15 +7,13 @@ let uploadToBox = () => {
 
 	$.ajax({
 		url: 'https://upload.box.com/api/2.0/files/content',
-		headers: {Authorization: 'Bearer HPrFm8V0mawpSycKQDc7FxVyW1grXbqH'},
+		headers: {Authorization: 'Bearer SF1NXbMWCbIBwTohm2k2aaJEYcTVQgrc'},
 		type: 'POST',
 		processData: false,
 		contentType: false,
+		dataType: 'json',
 		data: form
 	}).complete((data) => {
 		console.log(data.response);
 	})
 }
-
-
-
