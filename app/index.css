@@ -1,0 +1,31 @@
+.nav img {
+    width: 100vw;
+    padding-left: 0em;
+}
+
+#loanForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100vmax;
+    height: 100vh;
+    padding-left: 20px;
+    background: #f7f3ed;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+    padding: 15px;
+    margin: 15px;
+}
+
+#userFile {
+    margin: 5px;
+}
+
+.btn {
+    margin: 10px;
+}

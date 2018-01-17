@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loan Application | Step 2</title>
+    <link rel="shortcut icon" type="image/png" href="../assets/fav.png">
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="nav">
+        <img src="../assets/nav.png">
+    </div>
+    <div class="modal fade" id="modalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLongTitle">Terms and Conditions</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <br> This Agreement between you and Bank of America, N.A (Bank of America) governs the use of Online Banking services and the Transfers Outside Bank of America service.
+                    <br>
+                    <br> These services permit U.S.-based Bank of America customers (consumers and business customers who are account owners) to perform a number of banking functions through the use of a personal computer or, for some functions, a mobile device (e.g., tablet or Smartphone), on accounts linked to the service, including some with our affiliates, Merrill Lynch, Pierce, Fenner & Smith Incorporated ("MLPF&S"). Unless indicated otherwise by the context, "linked Bank of America accounts" or "linked accounts" refers to all of your U.S.-based accounts with Bank of America that you have linked to Online Banking or Transfers Outside Bank of America.
+                    <br>
+                    <br> When used in this Agreement, the term “business” includes sole proprietors, non-consumer business entities, and individual owners of the business, unless the context indicates otherwise.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="window.location.href= 'https://www.bankofamerica.com/auto-loans/' ">Agree and Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="loanForm">
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlFile1">Attach your completed loan application below</label>
+                <input type="file" class="form-control-file" id="userFile">
+                <button type="button" class="btn btn-primary" id="uploadBtn">Upload</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+
+</html>
