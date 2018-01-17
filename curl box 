@@ -1,4 +1,0 @@
-curl https://upload.box.com/api/2.0/files/content \
- -H "Authorization: Bearer SF1NXbMWCbIBwTohm2k2aaJEYcTVQgrc" -X POST \
- -F attributes='{"name":"Jon_Snow.jpeg", "parent":{"id":"0"}}' \
- -F file=@Jon_Snow.jpeg
